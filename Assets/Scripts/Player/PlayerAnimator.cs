@@ -1,0 +1,27 @@
+﻿using Assets.Scripts.Features.Emotion;
+using UnityEngine;
+
+namespace Assets.Scripts.Player
+{
+    public class PlayerAnimator : MonoBehaviour
+    {
+        [SerializeField] private Animator _animator;
+
+        public void SetMoveDirection(Vector2 dir)
+        {
+            _animator.SetFloat("moveX", dir.x);
+            _animator.SetFloat("moveY", dir.y);
+        }
+
+        public void SetIsAiming(bool aiming)
+        {
+            _animator.SetBool("isAiming", aiming);
+        }
+
+        public void PlayEmotion(EmotionType emotion) { }
+
+        public void PlayHitReaction() { }
+
+        public void PlayShoot() { }
+    }
+}

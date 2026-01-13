@@ -1,0 +1,15 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Assets/HDRP_Oak_Tree
+/Assets/TerrainSampleAssets
+/Assets/TutorialInfo
+/Temp
+/Assets/Data
+/Assets/Mirror
+/Assets/ScriptTemplates
+/Library
+/Assets/Reallusion
+/Assets/TextMesh Pro
