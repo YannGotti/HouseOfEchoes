@@ -12,9 +12,20 @@ namespace Assets.Scripts.Player
         [SerializeField] private PlayerAnimator _animator;
         [SerializeField] private WeaponManager _weaponManager;
 
+        [SerializeField] private WeaponData _startingWeapon;
+
         private void Awake()
         {
             _camera.FollowTarget(transform);
+
+            if (_startingWeapon != null)
+            {
+                _weaponManager.Equip(_startingWeapon);
+            }
+            else
+            {
+                Debug.LogWarning("No starting weapon assigned to PlayerController!");
+            }
         }
 
         private void Update()
