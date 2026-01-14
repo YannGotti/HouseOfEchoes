@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/respin/6000.3.1f1-f56f53296c2c' branch; Version is '6000.3.1f1 (37142da19a94) revision 3609645'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16310 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MIRON" at "2026-01-14T08:33:05.4786774Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MIRON" at "2026-01-14T13:10:37.9013416Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-14T08:33:05Z
+Date: 2026-01-14T13:10:37Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.1f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/MIRON/void
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64440
+64352
 -licensingIpc
 LicenseClient-MIRON
 -job-worker-count
@@ -65,12 +65,14 @@ C:/Users/MIRON/void
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [44576]  Target information:
+Player connection [33240]  Target information:
 
-Player connection [44576]  * "[IP] 192.168.0.51 [Port] 0 [Flags] 2 [Guid] 2181300276 [EditorId] 2181300276 [Version] 1048832 [Id] WindowsEditor(7,Miron) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [33240]  * "[IP] 192.168.0.51 [Port] 0 [Flags] 2 [Guid] 1353264753 [EditorId] 1353264753 [Version] 1048832 [Id] WindowsEditor(7,Miron) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [44576] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [44576] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33240]  * "[IP] 10.134.64.49 [Port] 0 [Flags] 2 [Guid] 1353264753 [EditorId] 1353264753 [Version] 1048832 [Id] WindowsEditor(7,Miron) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [33240] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33240] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.1f1 (37142da19a94)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -98,52 +100,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              e0969c47f2824315b299b06e32b9b4ae
+  Session Id:              111bafc11fc846349a45d0d6f5f3f2e6
   Correlation Id:          99a91b207c14842227d764a8c853e54c
-  External correlation Id: 1443150504436274622
+  External correlation Id: 3358288017013866722
   Machine Id:              tEfFs2W6kIHcrO0zmrD27g1nt+s=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-MIRON" (connect: 0.00s, validation: 0.00s, handshake: 0.96s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MIRON-notifications" at "2026-01-14T08:33:06.4387366Z"
-[Licensing::Module] Licensing Background thread has ended after 0.96s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-MIRON" (connect: 0.00s, validation: 0.00s, handshake: 0.79s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MIRON-notifications" at "2026-01-14T13:10:38.6915912Z"
+[Licensing::Module] Licensing Background thread has ended after 0.79s
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001930 seconds.
-- Loaded All Assemblies, in  0.451 seconds
+Registered in 0.001692 seconds.
+- Loaded All Assemblies, in  0.354 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.421 seconds
-Domain Reload Profiling: 869ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  0.371 seconds
+Domain Reload Profiling: 723ms
+	BeginReloadAssembly (119ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (191ms)
-		LoadAssemblies (149ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (116ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (187ms)
-				TypeCache.ScanAssembly (174ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (123ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (421ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (372ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (369ms)
+		SetupLoadedEditorAssemblies (317ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -159,8 +161,8 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.987 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.850 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -168,39 +170,39 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.147 seconds
-Domain Reload Profiling: 2129ms
-	BeginReloadAssembly (180ms)
+- Finished resetting the current domain, in  0.944 seconds
+Domain Reload Profiling: 1789ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (707ms)
-		LoadAssemblies (442ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (593ms)
+		LoadAssemblies (372ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (359ms)
-			TypeCache.Refresh (281ms)
-				TypeCache.ScanAssembly (258ms)
-			BuildScriptInfoCaches (59ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (224ms)
+			BuildScriptInfoCaches (53ms)
 			ResolveRequiredComponents (12ms)
-	FinalizeReload (1147ms)
+	FinalizeReload (945ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (965ms)
+		SetupLoadedEditorAssemblies (797ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (431ms)
-			ProcessInitializeOnLoadMethodAttributes (336ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (269ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -220,483 +222,84 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subsh
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8652 unused Assets / (12.8 MB). Loaded Objects now: 9820.
-Memory consumption went from 271.8 MB to 259.0 MB.
-Total: 14.785600 ms (FindLiveObjects: 1.383500 ms CreateObjectMapping: 0.707000 ms MarkObjects: 6.966400 ms  DeleteObjects: 5.727300 ms)
+Unloading 8655 unused Assets / (10.3 MB). Loaded Objects now: 9823.
+Memory consumption went from 272.5 MB to 262.2 MB.
+Total: 10.531900 ms (FindLiveObjects: 0.905900 ms CreateObjectMapping: 0.908600 ms MarkObjects: 4.970600 ms  DeleteObjects: 3.746100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2805101.429787 seconds.
-  path: Assets/Mirror/Examples/Billiards/Table/Lamp.mat
-  artifactKey: Guid(a5c5ac95f6b544173994adfaae202203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/Billiards/Table/Lamp.mat using Guid(a5c5ac95f6b544173994adfaae202203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c971d0b5cbf0caf32f4d82192f190a16') in 0.1319274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Mirror/Examples/AdditiveLevels/Materials/Portal.mat
-  artifactKey: Guid(3500dce637708024da2f2e45e4f71cd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/AdditiveLevels/Materials/Portal.mat using Guid(3500dce637708024da2f2e45e4f71cd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9cd9453ea848d8b8e485027ed2480ca3') in 0.0132752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mirror/Examples/BilliardsPredicted/Ball/White.mat
-  artifactKey: Guid(cc250a30997cc42318e82a6ec42171db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/BilliardsPredicted/Ball/White.mat using Guid(cc250a30997cc42318e82a6ec42171db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed766ee94d0a8a10ccce59e62194c4f3') in 0.0122127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Player.mat
-  artifactKey: Guid(bbe2c7293af197640a2b40018e79b9a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Player.mat using Guid(bbe2c7293af197640a2b40018e79b9a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06b8d709294cdf1223c5c2983d76ac67') in 0.0123629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Mirror/Examples/Billiards/Ball/Red.mat
-  artifactKey: Guid(4260669eb9d994f8c96cd5be23e52164) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/Billiards/Ball/Red.mat using Guid(4260669eb9d994f8c96cd5be23e52164) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dd39d5610bec3ebfe5bc46474bbf1fc') in 0.0140756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mirror/Examples/Billiards/Ball/White.mat
-  artifactKey: Guid(e88ccd07dc10d443b808d53676994410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/Billiards/Ball/White.mat using Guid(e88ccd07dc10d443b808d53676994410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68ce7cc87eebd382e4a9fa64e879308c') in 0.0136351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mirror/Components/PredictedRigidbody/LocalGhostMaterial.mat
-  artifactKey: Guid(411a48b4a197d4924bec3e3809bc9320) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Components/PredictedRigidbody/LocalGhostMaterial.mat using Guid(411a48b4a197d4924bec3e3809bc9320) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1610acc167ddc800be00c4726b768f91') in 0.0136563 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Mirror/Examples/TopDownShooter/Materials/HitPoint.mat
-  artifactKey: Guid(59a0b70a9ba8142de911aac4b56faebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/TopDownShooter/Materials/HitPoint.mat using Guid(59a0b70a9ba8142de911aac4b56faebc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b86ea1659d9bcbe41aba1ce871a01606') in 0.0128385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Mirror/Examples/CharacterSelection/Materials/MaterialGreenDark.mat
-  artifactKey: Guid(b4814d6b577aa424991905946c0fe6dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/CharacterSelection/Materials/MaterialGreenDark.mat using Guid(b4814d6b577aa424991905946c0fe6dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a8c53611dcbe1c75252f716c9f82569') in 0.0132187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Mirror/Examples/Snapshot Interpolation/ServerMaterial.mat
-  artifactKey: Guid(163b909ba60cc435a95bb35396edda15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/Snapshot Interpolation/ServerMaterial.mat using Guid(163b909ba60cc435a95bb35396edda15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17ebe266e1381e0e5746b58942d46a2f') in 0.0223871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Mirror/Examples/CCU/White.mat
-  artifactKey: Guid(ae32f0609a5e9453b95ec3b9e28c2ac8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/CCU/White.mat using Guid(ae32f0609a5e9453b95ec3b9e28c2ac8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f1b7737f1464241f004c98e42d8f738') in 0.0112873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mirror/Examples/AdditiveLevels/Materials/CubeSphere.mat
-  artifactKey: Guid(38950807c6bf6454dbef567827b770b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/AdditiveLevels/Materials/CubeSphere.mat using Guid(38950807c6bf6454dbef567827b770b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6857d41ec62551a7c063dd784695b3c9') in 0.0132117 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Mirror/Examples/TopDownShooter/Materials/Player.mat
-  artifactKey: Guid(e80f3dd18f1c74d9cae135fc266c3d46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/TopDownShooter/Materials/Player.mat using Guid(e80f3dd18f1c74d9cae135fc266c3d46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52cf829a1a64d0d393cbe9946acb27f5') in 0.01476 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Mirror/Examples/Billiards/Table/Pockets.mat
-  artifactKey: Guid(345f064ee294143f9ba2aabdef269c2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/Billiards/Table/Pockets.mat using Guid(345f064ee294143f9ba2aabdef269c2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '495c56a36833b21eb1a0bee384a608a0') in 0.0117891 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mirror/Examples/AdditiveLevels/Materials/Player.mat
-  artifactKey: Guid(6b7039502d1528a4db29c4d43d159b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/AdditiveLevels/Materials/Player.mat using Guid(6b7039502d1528a4db29c4d43d159b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0cc6dfe319752addc2a0b8899d38abe1') in 0.0114058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Mirror/Examples/TopDownShooter/Materials/DeathSplatter.mat
-  artifactKey: Guid(903ecffecba3f46c09b2277b64c59abd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/TopDownShooter/Materials/DeathSplatter.mat using Guid(903ecffecba3f46c09b2277b64c59abd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87155200ab57a3a0a1d2ab90998a20c1') in 0.0122064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat
-  artifactKey: Guid(439a10ee8f8d14040be9003239449741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Cylinder.mat using Guid(439a10ee8f8d14040be9003239449741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ca335e7b964ff19df0b9f18fcc53ed6') in 0.0120365 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Sphere.mat
-  artifactKey: Guid(58936713efca1ec488624ee297b5d687) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Sphere.mat using Guid(58936713efca1ec488624ee297b5d687) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec05530e94b80ea8081555e41faf6d16') in 0.0126395 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Mirror/Examples/_Common/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat
-  artifactKey: Guid(29b49c27a74f145918356859bd7af511) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/_Common/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat using Guid(29b49c27a74f145918356859bd7af511) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce44ac4adca8e9000e076acf9f9e56ef') in 0.0118798 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Mirror/Examples/_Common/TankModel/(Public Domain) Recon_Tank/TankMaterial_MaskMap.png
-  artifactKey: Guid(976fbbdcc2324424b9c371964e460e9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/_Common/TankModel/(Public Domain) Recon_Tank/TankMaterial_MaskMap.png using Guid(976fbbdcc2324424b9c371964e460e9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f850fce7e9deb8b51078ed83951a6e14') in 0.051081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Mirror/Examples/TopDownShooter/Materials/RespawnPortal.mat
-  artifactKey: Guid(1bde4b1cc0d324a529422ec57b7de6f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/TopDownShooter/Materials/RespawnPortal.mat using Guid(1bde4b1cc0d324a529422ec57b7de6f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30f5e4f7cc95221c4eda3321af6982d4') in 0.0135743 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Mirror/Examples/TopDownShooter/Materials/MaterialYellow.mat
-  artifactKey: Guid(e7ead3db0b56746e9a3deb1bd6ef47c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/TopDownShooter/Materials/MaterialYellow.mat using Guid(e7ead3db0b56746e9a3deb1bd6ef47c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78bd381b3e13320fe0222ab31f329696') in 0.0127889 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Server.mat
-  artifactKey: Guid(84335f003ad8f42408d13787e76d4f94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Server.mat using Guid(84335f003ad8f42408d13787e76d4f94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bff286f4337928ee1f0def46226afb96') in 0.013511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mirror/Examples/TopDownShooter/Materials/MaterialGrey.mat
-  artifactKey: Guid(3df2e2d59eac94c48be004914a40f41c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/TopDownShooter/Materials/MaterialGrey.mat using Guid(3df2e2d59eac94c48be004914a40f41c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a394a50dcc8e4a178fc19a08e977571f') in 0.0118691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat
-  artifactKey: Guid(3ec90781e3720544da7fc86055e6cbe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Capsule.mat using Guid(3ec90781e3720544da7fc86055e6cbe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fdf5a9e87fce5cfce6cb9a9d48ae33f') in 0.0151482 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Mirror/Examples/PickupsDropsChilds/Materials/Bat.mat
-  artifactKey: Guid(9668485f4f34ae3458ccb76195eb127e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/PickupsDropsChilds/Materials/Bat.mat using Guid(9668485f4f34ae3458ccb76195eb127e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '556abc44a1591a32cbc0a4c26c0daf9f') in 0.0116864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Mirror/Examples/RigidbodyBenchmark/Materials/Floor.mat
-  artifactKey: Guid(85f7f8f287aab49ea8e679c9f50a195d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/RigidbodyBenchmark/Materials/Floor.mat using Guid(85f7f8f287aab49ea8e679c9f50a195d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '187f2965c1b041dc77b5ff181d76f16f') in 0.0145146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Mirror/Examples/AdditiveScenes/Materials/Player.mat
-  artifactKey: Guid(792117fe9a386a8489e8010bec746339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/AdditiveScenes/Materials/Player.mat using Guid(792117fe9a386a8489e8010bec746339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4db4ab84b106e3e93f8957fbe592d69') in 0.0116983 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mirror/Examples/HexSpatialHash/Mateirals/RandomColor.mat
-  artifactKey: Guid(67d89500b29d14f4f909a99b79a5f2a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/HexSpatialHash/Mateirals/RandomColor.mat using Guid(67d89500b29d14f4f909a99b79a5f2a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'deda0453c74f7f21bda288f8b331a274') in 0.0121533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Mirror/Examples/CouchCoop/Materials/MaterialPlayer.mat
-  artifactKey: Guid(9b77d86bd031f46efa8887f0c4e8d79f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/CouchCoop/Materials/MaterialPlayer.mat using Guid(9b77d86bd031f46efa8887f0c4e8d79f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e80a145a5001052375ea8a590403aba5') in 0.0126956 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Mirror/Examples/PickupsDropsChilds/Materials/Ball.mat
-  artifactKey: Guid(adaf49450caebb24c9a21448fba27322) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Mirror/Examples/PickupsDropsChilds/Materials/Ball.mat using Guid(adaf49450caebb24c9a21448fba27322) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c1e2c8e3c57b01a78663ff06c583a33') in 0.0117414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 152.534115 seconds.
+  Time since last request: 2821757.224679 seconds.
   path: Assets/Resources/Prefabs/Characters/Player/serega.prefab
-  artifactKey: Guid(556a0952304062b4eba600e5bd1796a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Characters/Player/serega.prefab using Guid(556a0952304062b4eba600e5bd1796a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a182fcae6a23393d97ee4b4bb475019f') in 2.03887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 738
+  artifactKey: Guid(556a0952304062b4eba600e5bd1796a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs/Characters/Player/serega.prefab using Guid(556a0952304062b4eba600e5bd1796a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)Asset 'TPS_Player': Transition 'Shoot -> Pistol_Aim_Idle' in state 'Shoot' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadAssetAtPath (string,System.Type)
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 1861]
+
+ -> (artifact id: '2d3fee27498164e2df23914c12ef46d4') in 1.6559627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 625
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1190.284274 seconds.
-  path: Assets/Scripts/Features
-  artifactKey: Guid(9760408f34ca5da4db8ff2630e7580bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Features using Guid(9760408f34ca5da4db8ff2630e7580bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e020a47326a165ea309d8d00f701ab58') in 0.011953 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Scripts/Features/Weapon
-  artifactKey: Guid(9f5b7c34b16cf5f48a5ea65310add879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Features/Weapon using Guid(9f5b7c34b16cf5f48a5ea65310add879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ef2b4bb75640f9845597fb13030a58b') in 0.0005637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.442425 seconds.
-  path: Assets/Scripts/Features/Weapon/WeaponData.cs
-  artifactKey: Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Features/Weapon/WeaponData.cs using Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '487d328be18e5a3201af47d0a2e4e508') in 0.0008781 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8643 unused Assets / (11.2 MB). Loaded Objects now: 10171.
-Memory consumption went from 349.8 MB to 338.6 MB.
-Total: 116.741600 ms (FindLiveObjects: 3.618500 ms CreateObjectMapping: 1.151100 ms MarkObjects: 107.827800 ms  DeleteObjects: 4.141500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1957.979948 seconds.
-  path: Assets/Scripts/Features/Weapon/WeaponData.cs
-  artifactKey: Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Features/Weapon/WeaponData.cs using Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94d8d120e4170f5f6c7101fd948920e9') in 0.3907638 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8643 unused Assets / (12.2 MB). Loaded Objects now: 10171.
-Memory consumption went from 349.9 MB to 337.7 MB.
-Total: 14.801700 ms (FindLiveObjects: 0.962700 ms CreateObjectMapping: 0.993500 ms MarkObjects: 8.168300 ms  DeleteObjects: 4.676300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.026664 seconds.
-  path: Assets/Scripts/Features/Weapon/WeaponData.cs
-  artifactKey: Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Features/Weapon/WeaponData.cs using Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9c4959cc98de44958d83347dcfa5ae3') in 0.0296531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8643 unused Assets / (10.2 MB). Loaded Objects now: 10171.
-Memory consumption went from 349.8 MB to 339.6 MB.
-Total: 14.546900 ms (FindLiveObjects: 0.826600 ms CreateObjectMapping: 0.934900 ms MarkObjects: 8.683200 ms  DeleteObjects: 4.101100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.855812 seconds.
-  path: Assets/Scripts/Features/Weapon/WeaponData.cs
-  artifactKey: Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Features/Weapon/WeaponData.cs using Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '670ed4bc66afe80c575bf8c2baf194d2') in 0.0235426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8643 unused Assets / (11.5 MB). Loaded Objects now: 10171.
-Memory consumption went from 349.9 MB to 338.4 MB.
-Total: 13.842000 ms (FindLiveObjects: 0.827300 ms CreateObjectMapping: 0.900900 ms MarkObjects: 7.928800 ms  DeleteObjects: 4.184300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.473058 seconds.
-  path: Assets/Scripts/Features/Weapon/WeaponData.cs
-  artifactKey: Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Features/Weapon/WeaponData.cs using Guid(fbd8f7b31d7adc947a8f1e4868e3cf4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '510fd60311e36b4a16aef154d1042a9b') in 0.0247581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 1.191372 seconds.
+  path: Assets/MainScene.unity
+  artifactKey: Guid(ba934e3d041cdc0468874036d0a446fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MainScene.unity using Guid(ba934e3d041cdc0468874036d0a446fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4df56079222a5db388f7e824526617b6') in 0.0125961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in 13.966 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.820 seconds
-Domain Reload Profiling: 14785ms
-	BeginReloadAssembly (766ms)
+- Finished resetting the current domain, in  0.813 seconds
+Domain Reload Profiling: 1636ms
+	BeginReloadAssembly (231ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (206ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (216ms)
-	RebuildCommonClasses (117ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (13037ms)
-		LoadAssemblies (12836ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (383ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (408ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (374ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (820ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (203ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (813ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (570ms)
+		SetupLoadedEditorAssemblies (616ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (350ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -715,173 +318,85 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8650 unused Assets / (11.2 MB). Loaded Objects now: 9927.
-Memory consumption went from 296.1 MB to 284.9 MB.
-Total: 9.809400 ms (FindLiveObjects: 0.789300 ms CreateObjectMapping: 0.881700 ms MarkObjects: 4.593000 ms  DeleteObjects: 3.544700 ms)
+Unloading 8653 unused Assets / (11.0 MB). Loaded Objects now: 9853.
+Memory consumption went from 282.6 MB to 271.6 MB.
+Total: 14.900500 ms (FindLiveObjects: 1.532800 ms CreateObjectMapping: 1.282100 ms MarkObjects: 6.794700 ms  DeleteObjects: 5.289700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 98.294844 seconds.
-  path: Assets/Resources/Prefabs/Weapons
-  artifactKey: Guid(d122c1c8575872741bea987c8faf6675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons using Guid(d122c1c8575872741bea987c8faf6675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0afebe142fac413a414ff81e67cdd25f') in 0.0160898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.829826 seconds.
-  path: Assets/Resources/Prefabs/Weapons
-  artifactKey: Guid(d122c1c8575872741bea987c8faf6675) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Resources/Prefabs/Weapons using Guid(d122c1c8575872741bea987c8faf6675) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90a1c06aad2796e32339be3190553cde') in 0.0376473 seconds
+  Time since last request: 92.005302 seconds.
+  path: Assets/Resources/Prefabs/Weapons/pistol
+  artifactKey: Guid(946127fa5059feb449e9a9604657420e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs/Weapons/pistol using Guid(946127fa5059feb449e9a9604657420e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0ed08db5bcdad61ba3729b8d2cf8f55') in 0.0591567 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 192.563046 seconds.
-  path: Assets/Resources/Prefabs/Weapons/0ae7c8526de44d0ab63e6b5d21341fd2.fbx.fbx
-  artifactKey: Guid(f8a130594ec2426489fcf3acdd557ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/0ae7c8526de44d0ab63e6b5d21341fd2.fbx.fbx using Guid(f8a130594ec2426489fcf3acdd557ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9331f42589059cc0e1ea2473c69869e') in 1.3040029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.615379 seconds.
-  path: Assets/Resources/Prefabs/Weapons/textures/GunGS_AO.tga.png
-  artifactKey: Guid(4b49559a85a97c844a90bb3ebe1fd487) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Resources/Prefabs/Weapons/textures/GunGS_AO.tga.png using Guid(4b49559a85a97c844a90bb3ebe1fd487) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '931e09fc03fe6b5d244788a1c1cfde00') in 0.2104004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Resources/Prefabs/Weapons/textures
+  Time since last request: 3.404249 seconds.
+  path: Assets/Resources/Prefabs/Weapons/pistol/textures
   artifactKey: Guid(7ccc0f81d16613c49a35476d0659908e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Resources/Prefabs/Weapons/textures using Guid(7ccc0f81d16613c49a35476d0659908e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34833a9a1ee68abc3ddeb423a58dd4c4') in 0.0089709 seconds
+Start importing Assets/Resources/Prefabs/Weapons/pistol/textures using Guid(7ccc0f81d16613c49a35476d0659908e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09914d28551d4e18c371464bb93a443b') in 0.0101044 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Resources/Prefabs/Weapons/textures/GunGS_Albedo.tga.png
-  artifactKey: Guid(917fc2ddc44c56d40a40dd99113d0845) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Resources/Prefabs/Weapons/textures/GunGS_Albedo.tga.png using Guid(917fc2ddc44c56d40a40dd99113d0845) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fab4d5419724e151b69b145b1ec5e50') in 0.0173579 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Prefabs/Weapons/pistol/textures/GunGS_Emissive.tga.png
+  artifactKey: Guid(53e7236f84fc26b459e2680f0cd31ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs/Weapons/pistol/textures/GunGS_Emissive.tga.png using Guid(53e7236f84fc26b459e2680f0cd31ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f783fde9106c2b1afd3c8ac1c1b745a') in 0.0724995 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Resources/Prefabs/Weapons/textures/Plane_Diffuse.tga.png
-  artifactKey: Guid(91df540df67ef934b9f8042b69c498b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Resources/Prefabs/Weapons/textures/Plane_Diffuse.tga.png using Guid(91df540df67ef934b9f8042b69c498b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd276f776b69e83c92c1781dec4b95df') in 0.358273 seconds
+  path: Assets/Resources/Prefabs/Weapons/pistol/source.fbx
+  artifactKey: Guid(0a5af076d645ef54dae12cf2b10a62f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs/Weapons/pistol/source.fbx using Guid(0a5af076d645ef54dae12cf2b10a62f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7474470c2c851efe983f50a8814ac01') in 0.1062933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Prefabs/Weapons/pistol/textures/RGB Metallic.shadergraph
+  artifactKey: Guid(8120c917b7621e34ba17ef6c2141ea0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs/Weapons/pistol/textures/RGB Metallic.shadergraph using Guid(8120c917b7621e34ba17ef6c2141ea0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fb3467e507123ea912bdecc09d3e080') in 0.0372456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Prefabs/Weapons/pistol/Materials/GunGs.mat
+  artifactKey: Guid(827967df1c0af1f4ea2e045e215642b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs/Weapons/pistol/Materials/GunGs.mat using Guid(827967df1c0af1f4ea2e045e215642b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54e3bff8907d4e7dd8f97fc54759cb9f') in 0.0203503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Prefabs/Weapons/pistol/textures/GunGS_Metallic.tga.png
+  artifactKey: Guid(507c2d2186a79304fb01bfd26d879a47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs/Weapons/pistol/textures/GunGS_Metallic.tga.png using Guid(507c2d2186a79304fb01bfd26d879a47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8af678f6422a25509a274db1f2e51de6') in 0.0143021 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.435408 seconds.
-  path: Assets/Resources/Prefabs/Weapons/textures
-  artifactKey: Guid(7ccc0f81d16613c49a35476d0659908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/textures using Guid(7ccc0f81d16613c49a35476d0659908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad8d00cb716a84c24bed2d6c34af8bc') in 0.0005715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/Prefabs/Weapons/textures/GunGS_Albedo.tga.png
-  artifactKey: Guid(917fc2ddc44c56d40a40dd99113d0845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/textures/GunGS_Albedo.tga.png using Guid(917fc2ddc44c56d40a40dd99113d0845) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f02278663bc754a262a6ed5c1a213820') in 0.0206181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Resources/Prefabs/Weapons/textures/GunGS_NormalGL.tga.png
-  artifactKey: Guid(7fc717337100965408341358b0e6a0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/textures/GunGS_NormalGL.tga.png using Guid(7fc717337100965408341358b0e6a0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b27381444dbfe4ad599da2c050e134b') in 0.0157147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.637447 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials
-  artifactKey: Guid(d34fb012ac5a9c34594059fff6e1766b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Resources/Prefabs/Weapons/Materials using Guid(d34fb012ac5a9c34594059fff6e1766b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '994bac89355206ca717c1db3cf44e228') in 0.0101243 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Prefabs/Weapons/pistol/textures/GunGS_Albedo.tga.png
+  artifactKey: Guid(917fc2ddc44c56d40a40dd99113d0845) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs/Weapons/pistol/textures/GunGS_Albedo.tga.png using Guid(917fc2ddc44c56d40a40dd99113d0845) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d8293f21508942d3bc0afd9411a017e') in 0.0149886 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials/GunGS_NormalGL.tga.mat
-  artifactKey: Guid(57f903cff91437347bbfe469a2bca6d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Resources/Prefabs/Weapons/Materials/GunGS_NormalGL.tga.mat using Guid(57f903cff91437347bbfe469a2bca6d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29ac8b0b67a5d6ab6839cc1f34eca0fb') in 0.01839 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials/Plane_Diffuse.tga.mat
-  artifactKey: Guid(b69db3c008b87114aa593cbb2280fe37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Resources/Prefabs/Weapons/Materials/Plane_Diffuse.tga.mat using Guid(b69db3c008b87114aa593cbb2280fe37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75d4827cc0d3fba7407100c42717798a') in 0.0231631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.523959 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials
-  artifactKey: Guid(d34fb012ac5a9c34594059fff6e1766b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/Materials using Guid(d34fb012ac5a9c34594059fff6e1766b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55e0d462bc1fa4d029be85bdbfc527e4') in 0.0005264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials/GunGS_Albedo.tga.mat
-  artifactKey: Guid(1d3a5816ed1f08342a7de301cec29bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/Materials/GunGS_Albedo.tga.mat using Guid(1d3a5816ed1f08342a7de301cec29bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f862e04873e87f8e1d36aad28c9f8c2') in 0.0219323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials/GunGS_Roughness.tga.mat
-  artifactKey: Guid(58ad71b5596ea054e8c767a02b1c36cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/Materials/GunGS_Roughness.tga.mat using Guid(58ad71b5596ea054e8c767a02b1c36cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '861664466e419d6f23ede1d7b4d79656') in 0.0217933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials/GunGS_Emissive.tga.mat
-  artifactKey: Guid(2fa481e385b06624c9026e8773fe9aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/Materials/GunGS_Emissive.tga.mat using Guid(2fa481e385b06624c9026e8773fe9aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f49527577126660a9deb747bffe76fe1') in 0.0219788 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials/GunGS_Metallic.tga.mat
-  artifactKey: Guid(1964bc5345ed8974e93e9c0d1be4d901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/Materials/GunGS_Metallic.tga.mat using Guid(1964bc5345ed8974e93e9c0d1be4d901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '712a647af6dd3e3a01e79ef7659a16c1') in 0.0226419 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials/Plane_Diffuse.tga.mat
-  artifactKey: Guid(b69db3c008b87114aa593cbb2280fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/Materials/Plane_Diffuse.tga.mat using Guid(b69db3c008b87114aa593cbb2280fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8f4a43cb4aabf158411f504c5a5639a') in 0.043488 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Resources/Prefabs/Weapons/Materials/GunGS_NormalGL.tga.mat
-  artifactKey: Guid(57f903cff91437347bbfe469a2bca6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Weapons/Materials/GunGS_NormalGL.tga.mat using Guid(57f903cff91437347bbfe469a2bca6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c236af3ea3d07d783c276f79c55acdb') in 0.0581038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Prefabs/Weapons/pistol/textures/GunGS_Roughness.tga.png
+  artifactKey: Guid(88e43c1609104ca46a1d196fb01db600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs/Weapons/pistol/textures/GunGS_Roughness.tga.png using Guid(88e43c1609104ca46a1d196fb01db600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '389e0fc43614ff26f8d8971c2815abae') in 0.022598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

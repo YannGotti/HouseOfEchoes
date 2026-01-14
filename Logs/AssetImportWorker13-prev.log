@@ -1,0 +1,1677 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/respin/6000.3.1f1-f56f53296c2c' branch; Version is '6000.3.1f1 (37142da19a94) revision 3609645'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16310 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MIRON" at "2026-01-14T12:17:52.8848756Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-01-14T12:17:52Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/MIRON/void
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+64440
+-licensingIpc
+LicenseClient-MIRON
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/MIRON/void
+C:/Users/MIRON/void
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [39596]  Target information:
+
+Player connection [39596]  * "[IP] 192.168.0.51 [Port] 0 [Flags] 2 [Guid] 4016286672 [EditorId] 4016286672 [Version] 1048832 [Id] WindowsEditor(7,Miron) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39596]  * "[IP] 10.134.64.49 [Port] 0 [Flags] 2 [Guid] 4016286672 [EditorId] 4016286672 [Version] 1048832 [Id] WindowsEditor(7,Miron) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39596] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39596] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.1f1 (37142da19a94)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MIRON/void/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5050 (ID=0x2d83)
+    Vendor:   NVIDIA
+    VRAM:     7910 MB
+    Driver:   32.0.15.9144
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              8effb0b3b3d142339229dc2a13c6350c
+  Correlation Id:          99a91b207c14842227d764a8c853e54c
+  External correlation Id: 6393934914193636918
+  Machine Id:              tEfFs2W6kIHcrO0zmrD27g1nt+s=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-MIRON" (connect: 0.00s, validation: 0.00s, handshake: 0.86s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-MIRON-notifications" at "2026-01-14T12:17:53.7427361Z"
+[Licensing::Module] Licensing Background thread has ended after 0.86s
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002630 seconds.
+- Loaded All Assemblies, in  0.412 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 814ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (148ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10170560113378-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.899 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mirror | mirror-networking.com | discord.gg/N9QVxbM
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.998 seconds
+Domain Reload Profiling: 1892ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (601ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (321ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (234ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (999ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (853ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (290ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8654 unused Assets / (12.5 MB). Loaded Objects now: 9818.
+Memory consumption went from 266.2 MB to 253.7 MB.
+Total: 25.336700 ms (FindLiveObjects: 2.393900 ms CreateObjectMapping: 2.426700 ms MarkObjects: 12.189000 ms  DeleteObjects: 8.324900 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.858 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 1709ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (624ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8652 unused Assets / (12.3 MB). Loaded Objects now: 9846.
+Memory consumption went from 276.1 MB to 263.7 MB.
+Total: 14.294800 ms (FindLiveObjects: 1.025000 ms CreateObjectMapping: 1.215100 ms MarkObjects: 6.659100 ms  DeleteObjects: 5.394200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.771 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.753 seconds
+Domain Reload Profiling: 1523ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (351ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (753ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8652 unused Assets / (11.7 MB). Loaded Objects now: 9849.
+Memory consumption went from 275.8 MB to 264.2 MB.
+Total: 13.000100 ms (FindLiveObjects: 1.299800 ms CreateObjectMapping: 1.095900 ms MarkObjects: 6.168300 ms  DeleteObjects: 4.434900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2819213.385429 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Skin_Head_Diffuse.jpg
+  artifactKey: Guid(bc9c430c062d35d4c86e844404890b34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Skin_Head_Diffuse.jpg using Guid(bc9c430c062d35d4c86e844404890b34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1a3c72566e18c9502fbc1415b0c8c93') in 0.6429157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Upper_Teeth_Normal.png
+  artifactKey: Guid(5f8ce8e8b38a7624b8111681f3ad2934) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Upper_Teeth_Normal.png using Guid(5f8ce8e8b38a7624b8111681f3ad2934) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32d82f4153ecf09fd72f63638f897af3') in 0.0164174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MetallicAlpha.png
+  artifactKey: Guid(59e9269ed637b5b4eb80d8fc6b573f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MetallicAlpha.png using Guid(59e9269ed637b5b4eb80d8fc6b573f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '918dbb97146a3301b45fc7f0d3703e20') in 0.0192128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/aim.fbm
+  artifactKey: Guid(5a29ae4a767017141869132f896bfb1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm using Guid(5a29ae4a767017141869132f896bfb1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54268e4d88bc4ab77cd2675bf288b73e') in 0.012329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ResourceMap_Position.png
+  artifactKey: Guid(7746cd86cac893a449e03f0bfc51b3c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ResourceMap_Position.png using Guid(7746cd86cac893a449e03f0bfc51b3c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ede83ea5d779144802178f256640521') in 0.0214807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png
+  artifactKey: Guid(08cabf8fd8106a94594e887389abd1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png using Guid(08cabf8fd8106a94594e887389abd1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '110277e8f73f54cdf2b33309fd2987c5') in 0.0149062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_MetallicAlpha.png
+  artifactKey: Guid(60e5a87d5fc6cfb438ba3f6923ceebb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_MetallicAlpha.png using Guid(60e5a87d5fc6cfb438ba3f6923ceebb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff7af3d932308257e457c91ce878a4c7') in 0.0220324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Skin_Leg_Normal.png
+  artifactKey: Guid(3f2f5ee42db448b4a9f6665171b40269) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Skin_Leg_Normal.png using Guid(3f2f5ee42db448b4a9f6665171b40269) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4cb5bf3df99518b5e943a8d14e5a64f7') in 0.0161919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_CFULCMask.tga
+  artifactKey: Guid(f2244a03a519ba4499369d3a618d53e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_CFULCMask.tga using Guid(f2244a03a519ba4499369d3a618d53e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e31e2392bc43d1258c2e6be40add8f3') in 0.0145379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_MetallicAlpha.png
+  artifactKey: Guid(758b849c40f9ac04c90dd688d5d6a6fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_MetallicAlpha.png using Guid(758b849c40f9ac04c90dd688d5d6a6fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1061ac2f99e50ba8330834a62ce89be') in 0.0198855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Boxers_Diffuse.png
+  artifactKey: Guid(64bcab3e13efc474591cb63ac887a620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Boxers_Diffuse.png using Guid(64bcab3e13efc474591cb63ac887a620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c07c661617a0f636c72a0e23e7edff6e') in 0.0158431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Eyelash/Std_Eyelash_ResourceMap_Position.png
+  artifactKey: Guid(3e29a7579f8e4ad449447fdb458c5a57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Eyelash/Std_Eyelash_ResourceMap_Position.png using Guid(3e29a7579f8e4ad449447fdb458c5a57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1152648b98e8314e2d14f7fa03d8703e') in 0.0233345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_MetallicAlpha.png
+  artifactKey: Guid(0d2b9d515c0eda840a7b4a581f50ab27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_MetallicAlpha.png using Guid(0d2b9d515c0eda840a7b4a581f50ab27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5304661a4cf05f403bc9d51b297edac') in 0.0219019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png
+  artifactKey: Guid(d4578ff12b1be4c4ca34e78101bf86c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png using Guid(d4578ff12b1be4c4ca34e78101bf86c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97eef4682c78819b6700ca9b5c321751') in 0.0161039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_RGBAMask.tga
+  artifactKey: Guid(0e660ad6fa9ac7e4fb5f565798adf83a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_RGBAMask.tga using Guid(0e660ad6fa9ac7e4fb5f565798adf83a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f6b4ea0b5d40f341e799906d55a8346') in 0.0144487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Skin_Leg_Diffuse.jpg
+  artifactKey: Guid(4b496e86cd7096d4c86ec2c8083cbf5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Skin_Leg_Diffuse.jpg using Guid(4b496e86cd7096d4c86ec2c8083cbf5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a3b35f2bd6d2f7312a9f2fa2192ca8f') in 0.0164657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_HDRP.png
+  artifactKey: Guid(728fb7c0d83a75141aedb9abb606f438) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_HDRP.png using Guid(728fb7c0d83a75141aedb9abb606f438) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebd7bd053cf754186427ebb0ee0dfd73') in 0.0149369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Lower_Teeth_Normal.png
+  artifactKey: Guid(c022e16e7ca2f05459500e4c7342abc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Lower_Teeth_Normal.png using Guid(c022e16e7ca2f05459500e4c7342abc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de0f106fd1ed9555551a82ef70708d98') in 0.0169512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L
+  artifactKey: Guid(e6fdf85fdf29455448141afc9355cc6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L using Guid(e6fdf85fdf29455448141afc9355cc6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '869340dc744919ffbd51b8233d67e869') in 0.0130085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_BCBMap.jpg
+  artifactKey: Guid(2a0a6f340b9d9344d97889752ec58cbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_BCBMap.jpg using Guid(2a0a6f340b9d9344d97889752ec58cbb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87c14b7459a827358b160d8997f0056d') in 0.0167833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_HDRP.png
+  artifactKey: Guid(260bf6244d4ea8043a13538ae2fb24e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_HDRP.png using Guid(260bf6244d4ea8043a13538ae2fb24e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c506338a52026cb392a83f88c7b4d6a') in 0.0147297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Tongue/Std_Tongue/Std_Tongue_ao.png
+  artifactKey: Guid(9d312062414c6ad43ac17d479a491d7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Tongue/Std_Tongue/Std_Tongue_ao.png using Guid(9d312062414c6ad43ac17d479a491d7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28b8e4f3957790933d1e442493c615c5') in 0.0195708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Eye_R_Diffuse.jpg
+  artifactKey: Guid(79d9d5b37cfbeba4492b74ab8408e31e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Eye_R_Diffuse.jpg using Guid(79d9d5b37cfbeba4492b74ab8408e31e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6ab12aa89f112cbc8389e98b5f43c6b') in 0.015805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/textures/animPack/Boxers/Boxers/Boxers/Boxers_ao.png
+  artifactKey: Guid(98849dac6824fbe4bb5eb198218f0b32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/Boxers/Boxers/Boxers/Boxers_ao.png using Guid(98849dac6824fbe4bb5eb198218f0b32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3136c2f3197f392b30e4e1d3a42e89f0') in 0.0274823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ao.jpg
+  artifactKey: Guid(40018684fbbd2f146b6b2c020c5ae14f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ao.jpg using Guid(40018684fbbd2f146b6b2c020c5ae14f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe6bcbb361ef6e9cdbedbfa8a41833cc') in 0.0216892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Eyelash_Diffuse.png
+  artifactKey: Guid(c51219822aa96bd4eab59ff8747d70c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Eyelash_Diffuse.png using Guid(c51219822aa96bd4eab59ff8747d70c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18d4636fda1d37a8cfa91c06fbc24556') in 0.0166785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_MetallicAlpha.png
+  artifactKey: Guid(bd6fbacd6dde7954c899332576c15ac7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_MetallicAlpha.png using Guid(bd6fbacd6dde7954c899332576c15ac7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdd811cf79c84cab8baa3aaf608a97c0') in 0.0254357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/aim.fbm/Boxers_Normal.png
+  artifactKey: Guid(2f574faebfd748442967a271bbfa106b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Boxers_Normal.png using Guid(2f574faebfd748442967a271bbfa106b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f194e58709bf0c9668fdce268371a48') in 0.0193202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Nails/Std_Nails_ResourceMap_Position.png
+  artifactKey: Guid(deedc3f8e32247d488626d27d46bed70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Nails/Std_Nails_ResourceMap_Position.png using Guid(deedc3f8e32247d488626d27d46bed70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78b2d14e886fa5ce7f0f37d8afb7d95f') in 0.0254252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_ao.jpg
+  artifactKey: Guid(faa722dd3d62c304a8759eca2f1df09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_ao.jpg using Guid(faa722dd3d62c304a8759eca2f1df09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aaabe317e0b0677c6543be6c203bb9e4') in 0.0139875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_MetallicAlpha.png
+  artifactKey: Guid(45f80de512cf7e84ca4adcef8fda4cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_MetallicAlpha.png using Guid(45f80de512cf7e84ca4adcef8fda4cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ad51f0dc20df44917435ea0b525fcb1') in 0.022952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_SSSMap.png
+  artifactKey: Guid(e4417cf332bb544489b9660fc717affb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_SSSMap.png using Guid(e4417cf332bb544489b9660fc717affb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dc4d64a8088bf20198f9af131d29ac5') in 0.0145025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png
+  artifactKey: Guid(6dbd208646f0add44b40ca5ac03186ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png using Guid(6dbd208646f0add44b40ca5ac03186ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18634b4f52c8949f85b4d78862bc209d') in 0.0205742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Teeth/CC_Base_Teeth
+  artifactKey: Guid(b2917e17865391a4fafaf1fba591cae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Teeth/CC_Base_Teeth using Guid(b2917e17865391a4fafaf1fba591cae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a16cc892b8dcae08675bf4b28205970') in 0.0107242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_HDRP.png
+  artifactKey: Guid(cbb30fe65e92e224ca05d093dbc1dc86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_HDRP.png using Guid(cbb30fe65e92e224ca05d093dbc1dc86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9dc50543b3392725c30529d868f676d2') in 0.0164886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_HDRP.png
+  artifactKey: Guid(a47a5b7f70c7f7a47817c0eca9d4237d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_HDRP.png using Guid(a47a5b7f70c7f7a47817c0eca9d4237d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57b96beb18c2df9fd8be4d55bc2cc0f8') in 0.0137428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Eyelash/Std_Eyelash_MetallicAlpha.png
+  artifactKey: Guid(27a5b9bfc1ebeee4d86fd71bdaa8e616) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Eyelash/Std_Eyelash_MetallicAlpha.png using Guid(27a5b9bfc1ebeee4d86fd71bdaa8e616) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'caa0aedb38caed655b7fb126d6d4cd5d') in 0.0164125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_ResourceMap_Position.png
+  artifactKey: Guid(5d1ce37b2171a034389b5e3d07b32e96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_ResourceMap_Position.png using Guid(5d1ce37b2171a034389b5e3d07b32e96) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bbed2aa1c158899be3416543ffb1b50') in 0.0136028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NBMap.jpg
+  artifactKey: Guid(31b3503ded68bca4eb24a2380ae5e314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NBMap.jpg using Guid(31b3503ded68bca4eb24a2380ae5e314) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c14667d666c5a370ec91671a88552d6') in 0.014791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MicroNMask.jpg
+  artifactKey: Guid(1f682151992c55c469cf6b67c66b863a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MicroNMask.jpg using Guid(1f682151992c55c469cf6b67c66b863a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '151f8878eaa096fe81e11c27a799030a') in 0.0148734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ResourceMap_Position.png
+  artifactKey: Guid(97763f6f74088b44bbabf60f971144ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ResourceMap_Position.png using Guid(97763f6f74088b44bbabf60f971144ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9950777c043c1eff605ddc3a57efaed7') in 0.0136672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Eye
+  artifactKey: Guid(acce314953a895e409625d617614d402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Eye using Guid(acce314953a895e409625d617614d402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '295fbeb1466f2346b1251052b4faf287') in 0.0109785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth
+  artifactKey: Guid(32b27123df9d699449fc4e9d014a3268) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth using Guid(32b27123df9d699449fc4e9d014a3268) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffd08c25230b8b437df4c8af20c83c25') in 0.0107108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_EyeOcclusion
+  artifactKey: Guid(1ab9a34ce59642e4c80390efbc0f091f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_EyeOcclusion using Guid(1ab9a34ce59642e4c80390efbc0f091f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25eb412ae17faa5941298552692234fb') in 0.010948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/Aim/textures/aim/Boxers/Boxers/Boxers/Boxers_HDRP.png
+  artifactKey: Guid(a5c31d1a0d147d546b2b4420497da053) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/Boxers/Boxers/Boxers/Boxers_HDRP.png using Guid(a5c31d1a0d147d546b2b4420497da053) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6dab016335e1e553f4fc13bb151976fd') in 0.0142409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_HDRP.png
+  artifactKey: Guid(b0109c5dc642b514a9ffc3a4b596d315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_HDRP.png using Guid(b0109c5dc642b514a9ffc3a4b596d315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71365c186f7f3ef3ab4bc7ba7755d932') in 0.0147169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ao.jpg
+  artifactKey: Guid(1f2104f9f4fb3784584c425d6f0e4e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ao.jpg using Guid(1f2104f9f4fb3784584c425d6f0e4e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3936f4f1395825ed45858efa7fa9bc57') in 0.0142316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Eye_R_Diffuse.jpg
+  artifactKey: Guid(0d9b6ed3384636140888661ac573bab3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Eye_R_Diffuse.jpg using Guid(0d9b6ed3384636140888661ac573bab3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04bbc70cab3e4241d60e4f62b055eff9') in 0.0165316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MicroNMask.jpg
+  artifactKey: Guid(ecbc2d0c418b37d48a2c6232e0d33464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MicroNMask.jpg using Guid(ecbc2d0c418b37d48a2c6232e0d33464) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3bfff087e84854827a4d155f419a852') in 0.0138907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R
+  artifactKey: Guid(cdf14a8278b9c8340bfcfa588640f8a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R using Guid(cdf14a8278b9c8340bfcfa588640f8a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc1651ebf90c368a76794aa90e58fcba') in 0.0104712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_HDRP.png
+  artifactKey: Guid(e6ddc3fa4a0225045ba68a382740b7f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_HDRP.png using Guid(e6ddc3fa4a0225045ba68a382740b7f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c1fe07aaf7f295b04ade9b7ebb7e013') in 0.012764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Eyelash/Std_Eyelash_ResourceMap_Position.png
+  artifactKey: Guid(1f1a89cd11da1b64ea4c0009ac17b236) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Eyelash/Std_Eyelash_ResourceMap_Position.png using Guid(1f1a89cd11da1b64ea4c0009ac17b236) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfea6205821654992d3c63152f446025') in 0.0164525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_HDRP.png
+  artifactKey: Guid(0c74330e607603e49a2a09ad833deefd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_HDRP.png using Guid(0c74330e607603e49a2a09ad833deefd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd74c1590b63a55d28089a841ab235cfd') in 0.013821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png
+  artifactKey: Guid(a9157d40318667f44b033ed2c8ed53c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png using Guid(a9157d40318667f44b033ed2c8ed53c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '935669d02cd4902c45026763c82ad1b4') in 0.0149064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroNMask.jpg
+  artifactKey: Guid(4946ff0bbd121ac44a9c68bdfc6116d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroNMask.jpg using Guid(4946ff0bbd121ac44a9c68bdfc6116d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'baa9cdeea968d247cf7dc9ae1216c073') in 0.0148791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/textures/animPack/Boxers/Boxers/Boxers/Boxers_MetallicAlpha.png
+  artifactKey: Guid(40021cccd6cc8ec42a89b66848e391fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/Boxers/Boxers/Boxers/Boxers_MetallicAlpha.png using Guid(40021cccd6cc8ec42a89b66848e391fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0fa90da1805af372b48a720bbf04334') in 0.0218202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ResourceMap_Position.png
+  artifactKey: Guid(765ae844c2fe9754a80156bb3f5611b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ResourceMap_Position.png using Guid(765ae844c2fe9754a80156bb3f5611b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed99e7db50642dd7c718ba06942688f8') in 0.0122094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails
+  artifactKey: Guid(5a7bf8035a591b347b46bc56f5124f8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails using Guid(5a7bf8035a591b347b46bc56f5124f8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f93617d7130c6566106167cde8e8129d') in 0.0106242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NMUILMask.tga
+  artifactKey: Guid(aaf0fb26acfeb35498cc934c357596bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NMUILMask.tga using Guid(aaf0fb26acfeb35498cc934c357596bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1bc64d79482985fb8eb046c0960c3c0') in 0.0119932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_TransMap.png
+  artifactKey: Guid(c6500b7446f12544bb1ba08ffe9cf2d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_TransMap.png using Guid(c6500b7446f12544bb1ba08ffe9cf2d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f0b9b8d9fa3af1e5c6976a7113fb432') in 0.0135806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head
+  artifactKey: Guid(457041a765b04b84c910141f95164d09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head using Guid(457041a765b04b84c910141f95164d09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7552d2be6cd498b751e711cc3b98cd3e') in 0.0119299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Tongue_Diffuse.png
+  artifactKey: Guid(d3966cb84b859044c9a43169824ed469) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Tongue_Diffuse.png using Guid(d3966cb84b859044c9a43169824ed469) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '671681f4446ce8d2fad156160dfaecc3') in 0.0139907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_TransMap.png
+  artifactKey: Guid(4eef699d048f9bd42aa4507ccc1f52a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_TransMap.png using Guid(4eef699d048f9bd42aa4507ccc1f52a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4bc40bb2ab21218f28545553ff94ccbc') in 0.0145051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_TearLine
+  artifactKey: Guid(d09d8480d2824434586138a16e02d410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_TearLine using Guid(d09d8480d2824434586138a16e02d410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e54d25d9bc7fedb6118e2ea1c38ae4a0') in 0.0107936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R
+  artifactKey: Guid(8a36849dc053a444084005ad46e6be60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R using Guid(8a36849dc053a444084005ad46e6be60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cd5d2a0b607ae6c807ea7e4a23b892d') in 0.0109431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Boxers_Normal.png
+  artifactKey: Guid(7c16fe0f1c880cf4ea0adcaeec9e3a6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Boxers_Normal.png using Guid(7c16fe0f1c880cf4ea0adcaeec9e3a6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13de8211b8b366ba7ec9b5691fd80e81') in 0.0120739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_HDRP.png
+  artifactKey: Guid(d674b659c08d2c747ba3c28f9e3f4ee3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_L/Std_Eye_L_HDRP.png using Guid(d674b659c08d2c747ba3c28f9e3f4ee3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f9a33bf698ac2c89d3846404e55e4b4') in 0.0139927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Eye_L
+  artifactKey: Guid(4fa146a51a113ed418c62d097cd28a83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Eye_L using Guid(4fa146a51a113ed418c62d097cd28a83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b787a74a05006b046d84c4bb50e11ed4') in 0.0102953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MicroNMask.jpg
+  artifactKey: Guid(bafd3ab14bbb9a94b99efa3d1e152604) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MicroNMask.jpg using Guid(bafd3ab14bbb9a94b99efa3d1e152604) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0415d17b5b1cef83f8369b8ed468e28c') in 0.0162921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ENMask.tga
+  artifactKey: Guid(e4a8624003efc3640a57f8ca7516cc02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ENMask.tga using Guid(e4a8624003efc3640a57f8ca7516cc02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e51899a90944d95a5a19c6e7ed911b0') in 0.014806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_R
+  artifactKey: Guid(ae1b8b0077ce1b7428700950a71d086b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_R using Guid(ae1b8b0077ce1b7428700950a71d086b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3193a035dc81c85392b662469838dec') in 0.0109425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png
+  artifactKey: Guid(7c8c592efde023e4c98c48c795b5352b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png using Guid(7c8c592efde023e4c98c48c795b5352b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba98813c460d86d5e70ae58328dd7232') in 0.013049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Eyelash
+  artifactKey: Guid(d032620f87c9c9042a07f7f317f3a62d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Eyelash using Guid(d032620f87c9c9042a07f7f317f3a62d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0f76679629263ad99f931f50e9b80a9') in 0.0101111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ao.jpg
+  artifactKey: Guid(a1a2d65594780ae4b9886ac242133a74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ao.jpg using Guid(a1a2d65594780ae4b9886ac242133a74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0de833a5a8dc27e4fc42013cca7f18f') in 0.0144719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Upper_Teeth_Normal.png
+  artifactKey: Guid(ab5f9612be86eb94388b52fdce97e9ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Upper_Teeth_Normal.png using Guid(ab5f9612be86eb94388b52fdce97e9ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0051803651a079f81710771325cbec1f') in 0.0142263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_RGBAMask.tga
+  artifactKey: Guid(46e39a21dcc8ca841a9c2817afe88d5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_RGBAMask.tga using Guid(46e39a21dcc8ca841a9c2817afe88d5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7500e4453066a2055e8e96c0ccdb2801') in 0.0134748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_HDRP.png
+  artifactKey: Guid(a92825a888fde854d8edac0ee49be3ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_HDRP.png using Guid(a92825a888fde854d8edac0ee49be3ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c43cd20ec0b96e80faa5c4aac67d8ea2') in 0.0135707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_HDRP.png
+  artifactKey: Guid(5bbdcc81c1eddf84ab2af319609f8641) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_HDRP.png using Guid(5bbdcc81c1eddf84ab2af319609f8641) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5292df15d03065eec590a9eaaebcf6a') in 0.0155347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MetallicAlpha.png
+  artifactKey: Guid(1079fd906720720478e5a684505c66bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MetallicAlpha.png using Guid(1079fd906720720478e5a684505c66bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6a031f39536b8978b8bca28935c0c3f') in 0.0182252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye
+  artifactKey: Guid(39bbe29b11dc7d7408a0a18a27f01d06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye using Guid(39bbe29b11dc7d7408a0a18a27f01d06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10d7b0d66848fd6d242f3eb5edae9175') in 0.0101971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Nails/Std_Nails_SSSMap.jpg
+  artifactKey: Guid(071935648c7d41a4eb5240161b66c61f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Nails/Std_Nails_SSSMap.jpg using Guid(071935648c7d41a4eb5240161b66c61f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7c70e37ac1dee0fed0810edff97cca3') in 0.0135415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_MetallicAlpha.png
+  artifactKey: Guid(a088e3925a02afd48a9d33fc2bdac388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_MetallicAlpha.png using Guid(a088e3925a02afd48a9d33fc2bdac388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b46808dd8300ce1910267a76169b1e25') in 0.0143019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Tearline_R_Diffuse.png
+  artifactKey: Guid(7e13be76767bb0b47b6ddd241ad12b9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Tearline_R_Diffuse.png using Guid(7e13be76767bb0b47b6ddd241ad12b9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbeb24d6c2466f1aa205417adf6bd0ff') in 0.0126002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm
+  artifactKey: Guid(c1864e8aade70d5489d12c6c8e4045a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm using Guid(c1864e8aade70d5489d12c6c8e4045a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93a627d5e6f29b97218d88b6cd16d96d') in 0.0103397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth
+  artifactKey: Guid(44699225354dfb042b6d165ff65454fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth using Guid(44699225354dfb042b6d165ff65454fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2743287c848b3e72fb36937da1df3fdc') in 0.0112021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ResourceMap_WSNormal.png
+  artifactKey: Guid(99883238a007ffe48b1d4658f9b70771) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ResourceMap_WSNormal.png using Guid(99883238a007ffe48b1d4658f9b70771) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35c796c3b0cf86840c275c431d05c06e') in 0.015731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Eyelash_Diffuse.png
+  artifactKey: Guid(7cf5a827c407c324bb96b007069047da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Eyelash_Diffuse.png using Guid(7cf5a827c407c324bb96b007069047da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03dfe4b51f90c61f2e057886391b2f64') in 0.0141008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Nails
+  artifactKey: Guid(6dcf16d4953e8a444a88173b706f5645) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Nails using Guid(6dcf16d4953e8a444a88173b706f5645) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '518097c2fde2f33977ee47664de95eea') in 0.009333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ao.jpg
+  artifactKey: Guid(5e74e1c2d425bbf4aafb0c9b0976df6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ao.jpg using Guid(5e74e1c2d425bbf4aafb0c9b0976df6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57b4cc251d48e20562152db58816891e') in 0.0200366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_ao.jpg
+  artifactKey: Guid(1d59e6c175c5b964ea3d4a2a6cd09e88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_ao.jpg using Guid(1d59e6c175c5b964ea3d4a2a6cd09e88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '145f60a66f86206f0365b2a7f1469ab4') in 0.015367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R
+  artifactKey: Guid(626bfdf7386d88c4da6b2aee38b34080) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R using Guid(626bfdf7386d88c4da6b2aee38b34080) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bf3bc1cbd336057a1f9342e173cb358') in 0.0099947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Skin_Body_Normal.png
+  artifactKey: Guid(adab02a025562064eb2fa916acdfbed0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Skin_Body_Normal.png using Guid(adab02a025562064eb2fa916acdfbed0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11dd7e0200c96c2862acab86feac4c23') in 0.0138791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Tongue_Diffuse.png
+  artifactKey: Guid(dd7d0352f904c274d94268b1284b648a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Tongue_Diffuse.png using Guid(dd7d0352f904c274d94268b1284b648a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c78d3ebd475f0b75b3f79a6f4533f3f9') in 0.0134556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NBMap.jpg
+  artifactKey: Guid(7cf4e525e72418a42b6679adc18c0baf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NBMap.jpg using Guid(7cf4e525e72418a42b6679adc18c0baf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77ed12dac8c30d90b98eae79177cbdd6') in 0.0187998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Eye_L_Normal.png
+  artifactKey: Guid(c98296b5319bd654cad6b47fa7f51111) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Eye_L_Normal.png using Guid(c98296b5319bd654cad6b47fa7f51111) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4f841dbc58fee52f2a33e4c638de8c9') in 0.0163551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_HDRP.png
+  artifactKey: Guid(ee7f343a8643d074c87112e0f80681e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_L/Std_Tearline_L_HDRP.png using Guid(ee7f343a8643d074c87112e0f80681e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc4b73723ae528a7ef6731b43c570e91') in 0.0133353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg
+  artifactKey: Guid(5dc35ae88b658d54bacb50accebee56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg using Guid(5dc35ae88b658d54bacb50accebee56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a173fdd8e7bcdb57b771822c36fd43a') in 0.0132111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine
+  artifactKey: Guid(650f866a0f476ae40a0932c28ac7b02f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine using Guid(650f866a0f476ae40a0932c28ac7b02f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d02c5ba2537afe9065766286500cefe') in 0.0106805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_RGBAMask.tga
+  artifactKey: Guid(798863d7cd78cea40b1ceb85b3f77b42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_RGBAMask.tga using Guid(798863d7cd78cea40b1ceb85b3f77b42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '960646281ae8efbf871b6209794c6c1a') in 0.0134628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_MetallicAlpha.png
+  artifactKey: Guid(74d3f5a93ee6ba4428ceec8c283dd691) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_R/Std_Eye_Occlusion_R_MetallicAlpha.png using Guid(74d3f5a93ee6ba4428ceec8c283dd691) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9e4fe2beabb23586d32602c234075dc') in 0.0193616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_BCBMap.jpg
+  artifactKey: Guid(7a67a1dcbbee66d42aed7bcb6e43ca6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_BCBMap.jpg using Guid(7a67a1dcbbee66d42aed7bcb6e43ca6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07d9820960381dc9f03890db7bef20f8') in 0.016459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_MetallicAlpha.png
+  artifactKey: Guid(f9fd1d039bb4e674389632833fb333d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Eye_R/Std_Eye_R_MetallicAlpha.png using Guid(f9fd1d039bb4e674389632833fb333d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bdb2bd5b2b37ac9c53132e5e8705015') in 0.0137221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Skin_Arm_Normal.png
+  artifactKey: Guid(e5d2666cd3d02104b9134456685799ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Skin_Arm_Normal.png using Guid(e5d2666cd3d02104b9134456685799ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a129537dc9c588258b038c44bd936900') in 0.0159782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MicroN.png
+  artifactKey: Guid(429a35442fc32b3459e8f4d673e90b41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MicroN.png using Guid(429a35442fc32b3459e8f4d673e90b41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bac503c3177f03948df46349dc8d656b') in 0.0145138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Eye_Occlusion_L_Diffuse.png
+  artifactKey: Guid(66fff6cc65000054b9c93f27015c2b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Eye_Occlusion_L_Diffuse.png using Guid(66fff6cc65000054b9c93f27015c2b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f01279928c2e7883a45abc80cba97621') in 0.0151968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Eye_Occlusion_R_Diffuse.png
+  artifactKey: Guid(6e4a42c7ded7c04438044a4497c52c80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Eye_Occlusion_R_Diffuse.png using Guid(6e4a42c7ded7c04438044a4497c52c80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b95704297e8aff2dc3e7e1a3e96b4b80') in 0.0163547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Aim/animPack.fbm/Std_Upper_Teeth_Diffuse.png
+  artifactKey: Guid(67d3867f5e250be49ab81dd49355d630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/animPack.fbm/Std_Upper_Teeth_Diffuse.png using Guid(67d3867f5e250be49ab81dd49355d630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77fca3696f37c2a59f57c4d612521375') in 0.0130543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_HDRP.png
+  artifactKey: Guid(682cee562d89516408145514a1a7ea02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/animPack/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_HDRP.png using Guid(682cee562d89516408145514a1a7ea02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b8181124d68268bc09401e2e3b40d27') in 0.0159524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Skin_Arm_Diffuse.jpg
+  artifactKey: Guid(9b98fd2b9bdb4eb4cb4bf2aec0d6d403) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Skin_Arm_Diffuse.jpg using Guid(9b98fd2b9bdb4eb4cb4bf2aec0d6d403) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a14b5d4add3a05b518f25d612fca6427') in 0.0176628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/Aim/textures/animPack/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_HDRP.png
+  artifactKey: Guid(8142b7b54b2405445b7687457f6241e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/CC_Base_EyeOcclusion/CC_Base_EyeOcclusion/Std_Eye_Occlusion_L/Std_Eye_Occlusion_L_HDRP.png using Guid(8142b7b54b2405445b7687457f6241e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa51a88306a419e20ae550fd46631c69') in 0.0154578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg
+  artifactKey: Guid(a16f583902cb1f2439caea4c1912087e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg using Guid(a16f583902cb1f2439caea4c1912087e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53bc92b9483442ad5055baaa213d61f3') in 0.0105147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Eyelash
+  artifactKey: Guid(55c07e89fa23c6c4db26c9cdf471f540) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Eyelash using Guid(55c07e89fa23c6c4db26c9cdf471f540) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fe5a33178ca9ceca6cca6ab38d114aa') in 0.0103541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/textures/animPack/Boxers/Boxers/Boxers/Boxers_HDRP.png
+  artifactKey: Guid(325e7b809b519ac408172de12f986c23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/animPack/Boxers/Boxers/Boxers/Boxers_HDRP.png using Guid(325e7b809b519ac408172de12f986c23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e6d9bf97d24535396a5cabbcfe7f253') in 0.015259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R
+  artifactKey: Guid(86776307402349a49850216946cdc9fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_TearLine/CC_Base_TearLine/Std_Tearline_R using Guid(86776307402349a49850216946cdc9fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48f09f10b25193cf3fb8fff48e53c942') in 0.0113324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Tearline_L_Diffuse.png
+  artifactKey: Guid(bed4282672438cf4e8cc52d257b14e25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Tearline_L_Diffuse.png using Guid(bed4282672438cf4e8cc52d257b14e25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdba534d8d55729f286cd084b69267be') in 0.0135138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Eyelash/Std_Eyelash_HDRP.png
+  artifactKey: Guid(c22013f62bd7ff448a4cf6e81b410bb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Eyelash/Std_Eyelash_HDRP.png using Guid(c22013f62bd7ff448a4cf6e81b410bb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68811c719d301033e98ed976ae7d039d') in 0.0182152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_HDRP.png
+  artifactKey: Guid(eacddb0b71ba29b42acf7d8e352e05e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_HDRP.png using Guid(eacddb0b71ba29b42acf7d8e352e05e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c16b0a409f9e4c0bbc769aad0156c38') in 0.0149583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Eye_R_Normal.png
+  artifactKey: Guid(b66970b53a81f87459fab2e0ba207698) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Eye_R_Normal.png using Guid(b66970b53a81f87459fab2e0ba207698) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae42aee75954ef4c68e0619cdb4fd04e') in 0.0143627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Eyelash/Std_Eyelash_ao.jpg
+  artifactKey: Guid(ece0323480ce36943b414814115a0237) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Eyelash/Std_Eyelash_ao.jpg using Guid(ece0323480ce36943b414814115a0237) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b8e7e04e52c406f24d318894bb9b8a9') in 0.014107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_TransMap.png
+  artifactKey: Guid(2a71e2392fb6b6a42aa87c82b4378f49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_TransMap.png using Guid(2a71e2392fb6b6a42aa87c82b4378f49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5c9fedb9fa3c5f9db9484efae714507') in 0.01458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.950986 seconds.
+  path: Assets/Character/Aim/aim_ImportInfo.txt
+  artifactKey: Guid(20905ddb77dd68845a0207620523e462) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim_ImportInfo.txt using Guid(20905ddb77dd68845a0207620523e462) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97f175fc1dddb8c722a617ace4bd074c') in 0.0107215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.109662 seconds.
+  path: Assets/Character/Aim/Materials
+  artifactKey: Guid(ce51e5a64e610b044b3f438d9569f9a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Materials using Guid(ce51e5a64e610b044b3f438d9569f9a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72afb4fd0059713339b802d61e98026c') in 0.0099943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NMUILMask.tga
+  artifactKey: Guid(17395228f478d284cb3c3d8827bcf433) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NMUILMask.tga using Guid(17395228f478d284cb3c3d8827bcf433) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16f301603629cf7e88aab101e7d73067') in 0.0185253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Aim/Baked/aim/Textures/Std_Nails_HDRP.png
+  artifactKey: Guid(6d1feaff35a73a24898dc027ea84ba1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Baked/aim/Textures/Std_Nails_HDRP.png using Guid(6d1feaff35a73a24898dc027ea84ba1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5dccb1655314842fc75140918abd844f') in 0.0162021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/Aim/Materials/aim/Std_Eyelash.mat
+  artifactKey: Guid(c5c8c04407c03fe47ac6f7f5ab8df624) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Materials/aim/Std_Eyelash.mat using Guid(c5c8c04407c03fe47ac6f7f5ab8df624) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bff38e2d83aa1656c7273a59be3955b2') in 0.2153809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/Aim/Materials/aim/Boxers.mat
+  artifactKey: Guid(64200c39828f2b542bdc19a686961b43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Materials/aim/Boxers.mat using Guid(64200c39828f2b542bdc19a686961b43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd761b5c5e06f6a5e2097e59cfa6033e3') in 0.0242321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_CFULCMask.tga
+  artifactKey: Guid(f2244a03a519ba4499369d3a618d53e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_CFULCMask.tga using Guid(f2244a03a519ba4499369d3a618d53e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '639dd8c0fc9b9ba44f74b6a07b9637d2') in 0.0158175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_TransMap.png
+  artifactKey: Guid(6b2a9144820d25a45a38317dbe3b36b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_TransMap.png using Guid(6b2a9144820d25a45a38317dbe3b36b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8735930005a67df773c8ff9493c122fc') in 0.0477513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Lower_Teeth_Diffuse.png
+  artifactKey: Guid(62347d7ee59e36a49b550657eca0ecb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Lower_Teeth_Diffuse.png using Guid(62347d7ee59e36a49b550657eca0ecb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea0b4eb330e202ec41a9fa84cd73ba15') in 0.0158442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Aim/aim.fbm/Boxers_Normal.png
+  artifactKey: Guid(2f574faebfd748442967a271bbfa106b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Boxers_Normal.png using Guid(2f574faebfd748442967a271bbfa106b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a6553a095c3561e825fc893695f7f3e') in 0.0173088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_BSSSThicknessPack.png
+  artifactKey: Guid(6532c1335a658d845af7f3f7c3e7cf5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_BSSSThicknessPack.png using Guid(6532c1335a658d845af7f3f7c3e7cf5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '085c27db9d99829dee603138ab6a5f95') in 0.0152183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_SSSMap.jpg
+  artifactKey: Guid(d9faf52e0565b024b96f9bdbbb3a0742) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_SSSMap.jpg using Guid(d9faf52e0565b024b96f9bdbbb3a0742) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15be184fa23ac61abe8c13ccbc388794') in 0.0139927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Animation/Controllers/Player/TPS_Player.controller
+  artifactKey: Guid(6e129c224494e29489c84479a0efc9c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Animation/Controllers/Player/TPS_Player.controller using Guid(6e129c224494e29489c84479a0efc9c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3407e0e73d6e478f45c715d546f58ebd') in 2.1283091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/Baked/aim/Textures
+  artifactKey: Guid(924d1af598c4f51449b259d5af9fca32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Baked/aim/Textures using Guid(924d1af598c4f51449b259d5af9fca32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d7560ccdb304d03c72abe4e6bbe9934') in 0.0110201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/Aim/aim.fbm/Boxers_Diffuse.png
+  artifactKey: Guid(d26f6a7157bbb624dab988efc4a8d679) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Boxers_Diffuse.png using Guid(d26f6a7157bbb624dab988efc4a8d679) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7b845f595580a4c851adf46f827efb1') in 0.0160615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/Materials/aim/Std_Cornea_L.mat
+  artifactKey: Guid(1713ae76d37b05143ace01334c349d98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Materials/aim/Std_Cornea_L.mat using Guid(1713ae76d37b05143ace01334c349d98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2cdcf963cab470a7f57835f186cb9c4') in 0.0313336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/Materials/aim/Std_Tongue.mat
+  artifactKey: Guid(10a7b598155810944888afa7dcef631a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Materials/aim/Std_Tongue.mat using Guid(10a7b598155810944888afa7dcef631a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c64ee417810c5dc556536a55f1f3743') in 0.0239399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_RGBAMask.tga
+  artifactKey: Guid(e920be4eb08863b40adb6ccf0d1ddc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_RGBAMask.tga using Guid(e920be4eb08863b40adb6ccf0d1ddc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99aa4b8af55e102748e13d148c7f0232') in 0.0142581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png
+  artifactKey: Guid(7c8c592efde023e4c98c48c795b5352b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png using Guid(7c8c592efde023e4c98c48c795b5352b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4be4e78acfd37cdb5788709963d9865') in 0.0168635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Upper_Teeth_Normal.png
+  artifactKey: Guid(ab5f9612be86eb94388b52fdce97e9ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Upper_Teeth_Normal.png using Guid(ab5f9612be86eb94388b52fdce97e9ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '454f3ed7534b72e6a79a3d0ebda6f676') in 0.0142232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Aim/Materials/aim/Std_Eye_R.mat
+  artifactKey: Guid(26f26d0753821294c8b887e360851e80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Materials/aim/Std_Eye_R.mat using Guid(26f26d0753821294c8b887e360851e80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60da6bd91a92fadf474c588dc8eaa092') in 0.0236077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Eye_R_Normal.png
+  artifactKey: Guid(b66970b53a81f87459fab2e0ba207698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Aim/aim.fbm/Std_Eye_R_Normal.png using Guid(b66970b53a81f87459fab2e0ba207698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91d37b82163b3e44678a95bf0fdf9764') in 0.0622799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_HDRP.png
+  artifactKey: Guid(3a1c26aed4f616c40ab232023904a021) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_HDRP.png using Guid(3a1c26aed4f616c40ab232023904a021) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e01c4e897d67309d5ba0c9cdfd93e0f') in 0.0259664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Aim/Animations/aim/aim_Imported_1859155723376_TempMotion.anim
+  artifactKey: Guid(ec276d80956000d46a5de85bfd2f0dc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Animations/aim/aim_Imported_1859155723376_TempMotion.anim using Guid(ec276d80956000d46a5de85bfd2f0dc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '656517b9e5be37615ad680b65170484e') in 0.0305653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Skin_Body_Diffuse.jpg
+  artifactKey: Guid(2e01d86e02bb24b45a58e21123fc9983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Aim/aim.fbm/Std_Skin_Body_Diffuse.jpg using Guid(2e01d86e02bb24b45a58e21123fc9983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a6b5cefb89de233a2634b39e17500d4') in 0.0148294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_HDRP.png
+  artifactKey: Guid(b72fd4dff52637a44908ddc167176ec2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_HDRP.png using Guid(b72fd4dff52637a44908ddc167176ec2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ba9a4442b027f71c676b577f9891dca') in 0.0161344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Upper_Teeth_Diffuse.png
+  artifactKey: Guid(910c753cc4caa66409425b123494b802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Upper_Teeth_Diffuse.png using Guid(910c753cc4caa66409425b123494b802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b4e28aa6ef130cdd997f88012a45d66') in 0.0152453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_MicroNMask.jpg
+  artifactKey: Guid(1fb7f12ce0e28094f897fce4f64ab1dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Nails/Std_Nails_MicroNMask.jpg using Guid(1fb7f12ce0e28094f897fce4f64ab1dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94786662788e6ebda9dd8fd7cb4ce951') in 0.0251043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/Aim/Materials/aim/Std_Skin_Head.mat
+  artifactKey: Guid(ff6cdf9fb7bd54a409a08a52efbf81f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Materials/aim/Std_Skin_Head.mat using Guid(ff6cdf9fb7bd54a409a08a52efbf81f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb68ad1aea7099b18a9f616ada586815') in 0.0967697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Nails_Diffuse.jpg
+  artifactKey: Guid(78d09bfa6a30c404cbf2a216cb34d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Aim/aim.fbm/Std_Nails_Diffuse.jpg using Guid(78d09bfa6a30c404cbf2a216cb34d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2051ac6abd07d9f052ee454fcb7c7f52') in 0.0154777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Skin_Body_Normal.png
+  artifactKey: Guid(adab02a025562064eb2fa916acdfbed0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Skin_Body_Normal.png using Guid(adab02a025562064eb2fa916acdfbed0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6e929308341b8c56e82f4c8e6997207') in 0.0146737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/Baked/aim/Textures/Std_Skin_Head_HDRP.png
+  artifactKey: Guid(29e1969cb87cdac43b56c3d9f0800107) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Baked/aim/Textures/Std_Skin_Head_HDRP.png using Guid(29e1969cb87cdac43b56c3d9f0800107) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa55651e578f73e04b66561625bf253e') in 0.0165787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg
+  artifactKey: Guid(5dc35ae88b658d54bacb50accebee56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg using Guid(5dc35ae88b658d54bacb50accebee56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55fee426bcb72b5e544a67065925eefb') in 0.0132693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg
+  artifactKey: Guid(da4a5f8204ba7c5409c70d22f7bada2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg using Guid(da4a5f8204ba7c5409c70d22f7bada2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74f7fbf88ca083af310fa6543970ab6b') in 0.0168901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/Baked
+  artifactKey: Guid(c86b294a3182be24a9cd40a3f6203688) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Baked using Guid(c86b294a3182be24a9cd40a3f6203688) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6b22d642b65e5b503b1ac5790068fa8') in 0.0100079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Skin_Leg_Normal.png
+  artifactKey: Guid(3f2f5ee42db448b4a9f6665171b40269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Aim/aim.fbm/Std_Skin_Leg_Normal.png using Guid(3f2f5ee42db448b4a9f6665171b40269) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e9feae798d7725c276e9443542fd42e') in 0.0285155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Aim/Baked/aim
+  artifactKey: Guid(d02f14c72a52deb438c8b15ccb7dcf2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Baked/aim using Guid(d02f14c72a52deb438c8b15ccb7dcf2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4bb45b13e4008d98ae2f1f0071a2e09c') in 0.0101369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Aim/aim.fbx
+  artifactKey: Guid(0458462db0ad9b9419339538f983ce6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbx using Guid(0458462db0ad9b9419339538f983ce6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf81f369e8a0a90285de3f4b1af258b6') in 0.1541443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 238
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Tongue_Normal.png
+  artifactKey: Guid(664eeee78e3ae1245b545f7cc1504116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Aim/aim.fbm/Std_Tongue_Normal.png using Guid(664eeee78e3ae1245b545f7cc1504116) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6f4b0e005a22704a3e940715c6a32b0') in 0.0135878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/Aim/Baked/aim/Textures/Std_Skin_Leg_HDRP.png
+  artifactKey: Guid(550c4c348a996ce44ae6c2840faaf848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/Baked/aim/Textures/Std_Skin_Leg_HDRP.png using Guid(550c4c348a996ce44ae6c2840faaf848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0b433d171fce23fbc558f2263b12d89') in 0.0145182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_HDRP.png
+  artifactKey: Guid(eacddb0b71ba29b42acf7d8e352e05e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_HDRP.png using Guid(eacddb0b71ba29b42acf7d8e352e05e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b50421c86e2bd2d203209cfb1b9506d') in 0.0238097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MicroNMask.jpg
+  artifactKey: Guid(2a9cb3af3f38b344e99b9c4a6bcc9449) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/textures/aim/aim/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MicroNMask.jpg using Guid(2a9cb3af3f38b344e99b9c4a6bcc9449) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ba76159f7b0028f3dfb3a5cbad5e041') in 0.0276505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Character/Aim/aim.fbm/Std_Skin_Arm_Normal.png
+  artifactKey: Guid(748d7c3de804aa54b8ccb3bd2bd27e93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Character/Aim/aim.fbm/Std_Skin_Arm_Normal.png using Guid(748d7c3de804aa54b8ccb3bd2bd27e93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6fe542ee20b63ec336f714d56e8ebdc') in 0.0157798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+AssetImportWorkerClient::OnTransportError - code=10054 error=Удаленный хост принудительно разорвал существующее подключение.

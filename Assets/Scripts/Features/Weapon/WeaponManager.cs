@@ -36,8 +36,24 @@ namespace Assets.Scripts.Features.Weapon
 
             Debug.Log($"Equipped: {weapon.weaponName}");
         }
+
+        public void Unequip()
+        {
+            if (currentWeapon == null) return;
+
+            if (weaponHolder.childCount > 0)
+                Destroy(weaponHolder.GetChild(0).gameObject);
+
+            animatorProxy.SetBaseController(); 
+
+            currentWeapon = null;
+            currentAmmo = 0;
+        }
+
         public void Shoot() 
         {
+            if (currentWeapon == null) return;
+
             if (Time.time < nextFireTime || currentAmmo <= 0) return;
 
             currentAmmo--;
@@ -67,8 +83,10 @@ namespace Assets.Scripts.Features.Weapon
 
         public void Reload()
         {
+            if (currentWeapon == null) return;
             if (isReloading) return;
             if (currentAmmo >= currentWeapon.magazineSize) return;
+
             if (GameStateMachine.Instance?.GetCurrentState() != GameState.Explore) return;
 
             isReloading = true;
@@ -84,5 +102,7 @@ namespace Assets.Scripts.Features.Weapon
             currentAmmo = currentWeapon.magazineSize;
             isReloading = false;
         }
+
+        public bool HasWeapon() => currentWeapon != null;
     }
 }

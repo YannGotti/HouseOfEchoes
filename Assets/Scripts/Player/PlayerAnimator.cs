@@ -7,6 +7,9 @@ namespace Assets.Scripts.Player
     {
         [SerializeField] private Animator _animator;
 
+
+        [SerializeField] private RuntimeAnimatorController _baseController;
+
         public void SetMoveDirection(Vector2 dir)
         {
             _animator.SetFloat("moveX", dir.x);
@@ -30,6 +33,11 @@ namespace Assets.Scripts.Player
         public void PlayShoot() 
         {
 
+        }
+
+        public void SetBaseController()
+        {
+            _animator.runtimeAnimatorController = _baseController;
         }
 
         public void SetWeaponOverride(AnimatorOverrideController overrideController)

@@ -22,10 +22,7 @@ namespace Assets.Scripts.Player
             {
                 _weaponManager.Equip(_startingWeapon);
             }
-            else
-            {
-                Debug.LogWarning("No starting weapon assigned to PlayerController!");
-            }
+            
         }
 
         private void Update()
@@ -44,12 +41,7 @@ namespace Assets.Scripts.Player
             _animator.SetMoveDirection(moveInput);
         }
 
-        public void HandleAimInput()
-        {
-            bool isAiming = _inputHandler.IsAiming();
-            _animator.SetIsAiming(isAiming);
-            // _camera.BlendToFPS() — позже
-        }
+        
 
         public void HandleInteraction()
         {
@@ -80,6 +72,20 @@ namespace Assets.Scripts.Player
             {
                 _weaponManager.Reload();
             }
+        }
+
+        public void HandleAimInput()
+        {
+            bool isAiming = false;
+
+            if (_weaponManager.HasWeapon() &&
+                GameStateMachine.Instance?.GetCurrentState() == GameState.Explore)
+            {
+                isAiming = _inputHandler.IsAiming();
+            }
+
+            _animator.SetIsAiming(isAiming);
+            //_camera.BlendToFPS(isAiming);
         }
 
 
