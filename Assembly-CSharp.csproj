@@ -51,14 +51,18 @@
     <Compile Include="Assets\Scripts\Player\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Scripts\AI\AIDirector.cs" />
     <Compile Include="Assets\Scripts\AI\EnemyBase.cs" />
+    <Compile Include="Assets\Scripts\Core\Interfaces\ISaveable.cs" />
     <Compile Include="Assets\Scripts\Features\Weapon\WeaponData.cs" />
+    <Compile Include="Assets\Scripts\Core\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\AI\States\PatrolState.cs" />
     <Compile Include="Assets\Scripts\Core\GameStateMachine.cs" />
     <Compile Include="Assets\Scripts\AI\EnemyAnimator.cs" />
     <Compile Include="Assets\Scripts\World\Door.cs" />
     <Compile Include="Assets\Data\Samples\Shader Graph\17.3.0\Common\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Core\GameState.cs" />
+    <Compile Include="Assets\Scripts\Core\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Features\Weapon\WeaponManager.cs" />
+    <Compile Include="Assets\Scripts\Core\Interfaces\IDamageable.cs" />
     <Compile Include="Assets\Scripts\AI\IEnemyState.cs" />
     <Compile Include="Assets\Scripts\Networking\SyncedGameState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMotor.cs" />
@@ -69,7 +73,6 @@
     <Compile Include="Assets\Scripts\Networking\NetworkGameSession.cs" />
     <Compile Include="Assets\Scripts\Features\Puzzle\IPuzzle.cs" />
     <Compile Include="Assets\Data\HDRP_Oak_Tree\Offer\Asset_Store_Offers.cs" />
-    <Compile Include="Assets\Scripts\Core\ISaveable.cs" />
     <Compile Include="Assets\Scripts\Features\Emotion\EmotionType.cs" />
     <Compile Include="Assets\Scripts\AI\EnemyFSM.cs" />
     <Compile Include="Assets\Scripts\Features\Weapon\WeaponNetworkAdapter.cs" />
@@ -80,7 +83,6 @@
     <Compile Include="Assets\Scripts\Features\Puzzle\PuzzleManager.cs" />
     <Compile Include="Assets\Data\Samples\Shader Graph\17.3.0\Common\Scripts\DisableGizmos.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimator.cs" />
-    <Compile Include="Assets\Scripts\World\IInteractable.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInputHandler.cs" />
   </ItemGroup>
   <ItemGroup>

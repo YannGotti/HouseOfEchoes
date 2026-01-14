@@ -935,6 +935,37 @@ CapsuleCollider:
   m_Height: 0.29718074
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8007422667168523145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 861394163958157852}
+  m_Layer: 0
+  m_Name: RightHandSocket
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &861394163958157852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8007422667168523145}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4829379662669598448}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8376325586733988332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,6 +3258,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -6811439284410614007, guid: 5d529c6bce7993041b44f20b1a6269a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1093287987003710423}
+    - targetCorrespondingSourceObject: {fileID: -6811439284410614007, guid: 5d529c6bce7993041b44f20b1a6269a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 861394163958157852}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d529c6bce7993041b44f20b1a6269a1, type: 3}
       insertIndex: 1
@@ -3252,6 +3286,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d529c6bce7993041b44f20b1a6269a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5125430465076117734}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d529c6bce7993041b44f20b1a6269a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2600461386947855706}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5d529c6bce7993041b44f20b1a6269a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3531719903471606}
@@ -5097,6 +5134,38 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 8f1e6744-7019-4621-9934-4399c51f18be
     m_ActionName: 'Player/Aiming[/Mouse/rightButton]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2972062285314784223}
+        m_TargetAssemblyTypeName: Assets.Scripts.Player.PlayerInputHandler, Assembly-CSharp
+        m_MethodName: ReloadHandler
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f93e2e8e-4524-4d89-944b-e8e8ae87cc68
+    m_ActionName: 'Player/Reloading[/Keyboard/r]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2972062285314784223}
+        m_TargetAssemblyTypeName: Assets.Scripts.Player.PlayerInputHandler, Assembly-CSharp
+        m_MethodName: ShootingHandler
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5e7d0f5c-c94a-4dac-b424-b1f13888aa92
+    m_ActionName: 'Player/Shooting[/Mouse/leftButton]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
@@ -5118,6 +5187,8 @@ MonoBehaviour:
   _motor: {fileID: 8861028639026029930}
   _camera: {fileID: 0}
   _animator: {fileID: 2392188225885804931}
+  _weaponManager: {fileID: 0}
+  _gameStateMachine: {fileID: 0}
 --- !u!114 &2972062285314784223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5173,6 +5244,22 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
+--- !u!114 &2600461386947855706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7979506530770193576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa382b090829d9744b265cda372b501c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Features.Weapon.WeaponManager
+  animatorProxy: {fileID: 2392188225885804931}
+  weaponHolder: {fileID: 861394163958157852}
+  currentWeapon: {fileID: 11400000, guid: 593ac4c2df6596e45bfba718123976e7, type: 2}
+  networkAdapter: {fileID: 0}
 --- !u!114 &3531719903471606
 MonoBehaviour:
   m_ObjectHideFlags: 0

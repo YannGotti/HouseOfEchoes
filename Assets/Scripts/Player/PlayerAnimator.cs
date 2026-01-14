@@ -18,10 +18,26 @@ namespace Assets.Scripts.Player
             _animator.SetBool("isAiming", aiming);
         }
 
+        public void PlayReload()
+        {
+            _animator.SetTrigger("Reload");
+        }
+
         public void PlayEmotion(EmotionType emotion) { }
 
         public void PlayHitReaction() { }
 
-        public void PlayShoot() { }
+        public void PlayShoot() 
+        {
+
+        }
+
+        public void SetWeaponOverride(AnimatorOverrideController overrideController)
+        {
+            if (overrideController != null)
+            {
+                _animator.runtimeAnimatorController = overrideController;
+            }
+        }
     }
 }

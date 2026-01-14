@@ -1,4 +1,4 @@
-﻿using Assets.Scripts.Core;
+﻿using Assets.Scripts.Core.Interfaces;
 using Assets.Scripts.Player;
 using UnityEngine;
 
@@ -8,6 +8,7 @@ namespace Assets.Scripts.World
     {
         public void Interact(PlayerController player)
         {
+
         }
 
         public void Load()

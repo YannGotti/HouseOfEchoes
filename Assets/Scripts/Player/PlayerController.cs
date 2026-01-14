@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Core;
+using Assets.Scripts.Features.Weapon;
 using UnityEngine;
 
 namespace Assets.Scripts.Player
@@ -9,6 +10,7 @@ namespace Assets.Scripts.Player
         [SerializeField] private PlayerMotor _motor;
         [SerializeField] private ThirdPersonCamera _camera;
         [SerializeField] private PlayerAnimator _animator;
+        [SerializeField] private WeaponManager _weaponManager;
 
         private void Awake()
         {
@@ -21,6 +23,7 @@ namespace Assets.Scripts.Player
             HandleAimInput();
             HandleInteraction();
             HandleLookDeltaInput();
+            HandleWeaponInput();
         }
 
         public void HandleMovement()
@@ -50,6 +53,22 @@ namespace Assets.Scripts.Player
         {
             Vector2 lookDelta = _inputHandler.GetLookDelta();
             _camera.HandleLookInput(lookDelta);
+        }
+
+        private void HandleWeaponInput()
+        {
+            if (GameStateMachine.Instance.GetCurrentState() != GameState.Explore)
+                return;
+
+            if (_inputHandler.IsShooting())
+            {
+                _weaponManager.Shoot();
+            }
+
+            if (_inputHandler.IsReloading())
+            {
+                _weaponManager.Reload();
+            }
         }
 
 

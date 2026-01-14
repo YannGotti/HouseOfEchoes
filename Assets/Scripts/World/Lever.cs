@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Player;
+﻿using Assets.Scripts.Core.Interfaces;
+using Assets.Scripts.Player;
 using UnityEngine;
 
 namespace Assets.Scripts.World
